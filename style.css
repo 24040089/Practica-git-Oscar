@@ -132,3 +132,18 @@ footer {
         width: 92%;
     }
 }
+
+/* Efectos profesionales para las tarjetas */
+.tarjeta {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Mejor presentación de las secciones */
+section {
+    transition: transform 0.3s ease;
+}   
