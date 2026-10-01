@@ -147,3 +147,29 @@ footer {
 section {
     transition: transform 0.3s ease;
 }   
+
+/* Mejoras para dispositivos móviles */
+@media (max-width: 500px) {
+
+    header {
+        padding: 60px 15px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    header p {
+        font-size: 17px;
+    }
+
+    .presentacion,
+    .objetivo,
+    .tarjeta {
+        padding: 20px;
+    }
+
+    main {
+        width: 94%;
+    }
+}  
